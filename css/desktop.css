@@ -1,0 +1,163 @@
+/* DESKTOP */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+html {
+    scroll-behavior: smooth;
+}
+.margin {
+    padding: 15px;
+}
+.contenedor_logo {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo_pagina img {
+    max-width: 100px;
+}
+
+.nav_container ul {
+    border-top: 4px solid #ccc;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 0;
+    gap: 0;
+}
+
+.nav_container ul li {
+    border-right: 4px solid #CCCCCC;
+    padding: 0;
+}
+
+.nav_container ul li:last-child {
+    border-right: none;
+}
+
+.nav_container ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.nav_container ul li a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.banner_container {
+    width: 100vw;
+    background-image: url('/assets/foto_slide.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-text {
+    font-weight: bold;
+    font-size: 4em;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px 30px;
+    color: #000000;
+    text-align: center;
+}
+.popular_container {
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.cont-popular-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px 80px;
+    background-color: #EEEEEE;
+}
+
+.popular-item {
+    max-width: 250px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.popular-item img {
+    width: 250px; 
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.popular-item p {
+    margin: 25px 0;
+    font-size: 15px;
+    font-weight:bold;
+    color: #000000;
+    line-height: 25px;
+}
+
+.popular-item button {
+    background-color: #CCCCCC;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.popular-item button:hover {
+    background-color: #b3b1b1;
+}
+
+.footer {
+    background-color: #ffffff; 
+    padding: 15px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px; 
+    margin: auto; 
+    padding: 10px 20px;
+    border-top: 8px solid #ccc;  
+    border-bottom: 8px solid #222; 
+    width: 90%;
+}
+
+.logo-img {
+    max-width: 120px; 
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px; 
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #555; 
+}
