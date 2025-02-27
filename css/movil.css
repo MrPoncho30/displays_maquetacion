@@ -6,6 +6,8 @@
         grid-template-columns: repeat(2, 1fr); 
         gap: 0px 200px; 
         padding: 40px;
+        overflow-x: hidden; 
+
     }
 
     .popular-item {

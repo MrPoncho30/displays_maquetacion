@@ -56,7 +56,7 @@ html {
 
 .banner_container {
     width: 100vw;
-    background-image: url('../assets/foto_slide.jpg');
+    background-image: url('assets/foto_slide.jpg');
     background-size: cover;
     background-position: center;
     height: 450px;
